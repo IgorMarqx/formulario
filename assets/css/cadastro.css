@@ -1,0 +1,151 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#gradient{
+    background: linear-gradient(45deg,#2f2f2f, #8774e1, #8774e1, #2f2f2f);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.formulario{
+    background-color: #f3f2f2;
+    width:50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    border-radius: 1vh;
+    box-shadow: 3px 6px 32px -3px rgba(0,0,0,0.75);
+}
+/* CABECALHO */
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho h4{
+    color: #8774e1;
+    font-size: 1.8rem;
+    margin-bottom: 5vh;
+    font-weight: 600;
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: 2vh;
+    margin-bottom: 5vh;
+    color: #8774e1;
+}
+
+/* CABECALHO */
+.form{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.form input{
+    display: flex;
+    padding: 0.8vh;
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 1vh;
+    width: 55vh;
+    outline: none;
+    box-shadow: -1px 7px 25px -8px rgba(0,0,0,0.75);
+}
+
+.form input:hover{
+    background-color: #f3f2f2;
+}
+
+.form label{
+    color: #8774e1;
+    font-weight: 600;
+}
+
+.but{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.but a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #8774e1;
+    background-color: #8774e1;
+    color: #fff;
+    padding: 1vh;
+    margin: 0 1vh ;
+    width: 45%;
+    text-decoration: none;
+    border-radius: 1vh;
+    font-weight: 600;
+}
+
+.link:hover{
+    background:none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.link{
+    transition: background-color .5s;
+}
+
+/* ICONES */
+.icons{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 1vh;
+}
+
+.icons i{
+    font-size: 2.5rem;
+    margin: 0 2vh;
+}
+
+#linkedin{
+    color: #000000;
+}
+
+#linkedin:hover{
+    color: #5659dd;
+}
+
+#facebook{
+    color: #000000;
+}
+
+#facebook:hover{
+    color: #7679ff;
+}
+
+#google{
+    color: #000000;
+}
+
+#google:hover{
+    color: #00ff0d;
+}
+/* ICONES */
